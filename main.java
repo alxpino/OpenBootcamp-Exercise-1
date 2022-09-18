@@ -1,15 +1,15 @@
-Public class Main{
+public class Main{
   
   public static void main(String [] args){
     suma(1, 2, 3);
-    coche micoche = new coche;
-    micoche.masPuertas();
-    System.out.printLn(miCoche.puertas);
+    coche miCoche = new coche();
+    miCoche.masPuertas();
+    System.out.println(miCoche.puertas);
   }
   
   
   
-  public static suma(int a, int b, int c){
+  public static int suma(int a, int b, int c){
     return a + b + c;
   }
     
